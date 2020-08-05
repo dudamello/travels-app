@@ -16,6 +16,7 @@
 		BCFBC6FD24DB37E900EAC030 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBC6FB24DB37E900EAC030 /* Viagem.swift */; };
 		BCFBC6FE24DB37E900EAC030 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBC6FC24DB37E900EAC030 /* Dados.swift */; };
 		BCFBC70024DB37F300EAC030 /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = BCFBC6FF24DB37F300EAC030 /* viagens.json */; };
+		BCFBC70324DB3A0000EAC030 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBC70224DB3A0000EAC030 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BCFBC6FB24DB37E900EAC030 /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		BCFBC6FC24DB37E900EAC030 /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
 		BCFBC6FF24DB37F300EAC030 /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = viagens.json; sourceTree = "<group>"; };
+		BCFBC70224DB3A0000EAC030 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				BCFBC6FA24DB37DA00EAC030 /* Models */,
+				BCFBC70124DB39D400EAC030 /* Views */,
 				BCFBC6E624DB2D9300EAC030 /* AppDelegate.swift */,
 				BCFBC6E824DB2D9300EAC030 /* SceneDelegate.swift */,
-				BCFBC6EA24DB2D9300EAC030 /* ContentView.swift */,
 				BCFBC6EC24DB2D9700EAC030 /* Assets.xcassets */,
 				BCFBC6F124DB2D9700EAC030 /* LaunchScreen.storyboard */,
 				BCFBC6FF24DB37F300EAC030 /* viagens.json */,
@@ -90,6 +92,15 @@
 				BCFBC6FB24DB37E900EAC030 /* Viagem.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BCFBC70124DB39D400EAC030 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCFBC6EA24DB2D9300EAC030 /* ContentView.swift */,
+				BCFBC70224DB3A0000EAC030 /* HeaderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCFBC6FD24DB37E900EAC030 /* Viagem.swift in Sources */,
+				BCFBC70324DB3A0000EAC030 /* HeaderView.swift in Sources */,
 				BCFBC6E724DB2D9300EAC030 /* AppDelegate.swift in Sources */,
 				BCFBC6E924DB2D9300EAC030 /* SceneDelegate.swift in Sources */,
 				BCFBC6EB24DB2D9300EAC030 /* ContentView.swift in Sources */,

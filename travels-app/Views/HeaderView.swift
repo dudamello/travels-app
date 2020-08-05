@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HeaderView.swift
 //  travels-app
 //
 //  Created by Eduarda Mello on 05/08/20.
@@ -8,20 +8,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    
+struct HeaderView: View {
     var body: some View {
         
         GeometryReader { view in
             
-            //MARK: - VStack Prinicpal
-            
-            VStack{
+            VStack {
                 
-                //MARK: - VStack Header
+                // MARK: - VStack Header
                 
                 VStack {
-                    Text("travels")
+                    Text("alura viagens")
                         .foregroundColor(Color.white)
                         .font(.custom("Avenir Black", size: 20))
                         .padding(.top, 50)
@@ -32,23 +29,22 @@ struct ContentView: View {
                         .padding(.leading, 30)
                     Text("BRASIL")
                         .foregroundColor(Color.white)
-                        .font(.custom("Avenir Black", size: 20))
+                        .font(.custom("Avenir Black", size: 23))
                         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 30)
                 }
                 .frame(width: view.size.width, height: 180, alignment: .top)
-                .background(Color.purple)
-                
+                .background(/*@START_MENU_TOKEN@*/Color.purple/*@END_MENU_TOKEN@*/)
                 
                 HStack {
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                         Text("Hotéis")
                             .font(.custom("Avenir Medium", size: 17))
-                            .foregroundColor(.white)
+                            .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
                     }
                     .frame(width: 100, height: 50)
                     .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 10))
-                    .background(Color.blue)
+                    .background(/*@START_MENU_TOKEN@*/Color.blue/*@END_MENU_TOKEN@*/)
                     .offset(x: 50)
                     
                     Spacer()
@@ -64,34 +60,14 @@ struct ContentView: View {
                     .offset(x: -50)
                 }
                 .offset(y: -25)
-                
-                List(viagens) { viagem in
-                    
-                    VStack(alignment: .leading) {
-                        Text(viagem.titulo)
-                        Image(viagem.imagem)
-                            .resizable()
-                            .frame(height: 125)
-                        
-                        
-                        HStack {
-                            Text(viagem.quantidadeDeDias)
-                            Spacer()
-                            Text(viagem.valor)
-                        }
-                        
-                    }
-                    
-                }
             }
-            
         }
-        .edgesIgnoringSafeArea(.all)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HeaderView()
+            .previewLayout(.fixed(width: 400, height: 220))
     }
 }
