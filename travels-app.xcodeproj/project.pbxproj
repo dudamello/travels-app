@@ -17,6 +17,7 @@
 		BCFBC6FE24DB37E900EAC030 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBC6FC24DB37E900EAC030 /* Dados.swift */; };
 		BCFBC70024DB37F300EAC030 /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = BCFBC6FF24DB37F300EAC030 /* viagens.json */; };
 		BCFBC70324DB3A0000EAC030 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBC70224DB3A0000EAC030 /* HeaderView.swift */; };
+		BCFBC70524DB3C2F00EAC030 /* CelulaViagemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBC70424DB3C2F00EAC030 /* CelulaViagemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		BCFBC6FC24DB37E900EAC030 /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
 		BCFBC6FF24DB37F300EAC030 /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = viagens.json; sourceTree = "<group>"; };
 		BCFBC70224DB3A0000EAC030 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		BCFBC70424DB3C2F00EAC030 /* CelulaViagemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaViagemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BCFBC6EA24DB2D9300EAC030 /* ContentView.swift */,
 				BCFBC70224DB3A0000EAC030 /* HeaderView.swift */,
+				BCFBC70424DB3C2F00EAC030 /* CelulaViagemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				BCFBC6FD24DB37E900EAC030 /* Viagem.swift in Sources */,
 				BCFBC70324DB3A0000EAC030 /* HeaderView.swift in Sources */,
 				BCFBC6E724DB2D9300EAC030 /* AppDelegate.swift in Sources */,
+				BCFBC70524DB3C2F00EAC030 /* CelulaViagemView.swift in Sources */,
 				BCFBC6E924DB2D9300EAC030 /* SceneDelegate.swift in Sources */,
 				BCFBC6EB24DB2D9300EAC030 /* ContentView.swift in Sources */,
 				BCFBC6FE24DB37E900EAC030 /* Dados.swift in Sources */,
