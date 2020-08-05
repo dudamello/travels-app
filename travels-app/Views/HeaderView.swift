@@ -21,7 +21,7 @@ struct HeaderView: View {
                 // MARK: - VStack Header
                 
                 VStack {
-                    Text("alura viagens")
+                    Text("viagens")
                         .foregroundColor(Color.white)
                         .font(.custom("Avenir Black", size: self.horizontalSizeClass == .compact ? 20 : 30))
                         .padding(.top, self.horizontalSizeClass == .compact ? 50 : 90)
